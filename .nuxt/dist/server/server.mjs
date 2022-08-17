@@ -1,0 +1,1 @@
+export { default } from "file:///Users/hom/home/framework/packages/vite/src/runtime/vite-node.mjs"

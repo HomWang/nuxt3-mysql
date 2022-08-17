@@ -1,0 +1,57 @@
+{
+  "../packages/nuxt/src/app/entry.ts": {
+    "file": "_nuxt/entry.1c16c1e7.mjs",
+    "src": "../packages/nuxt/src/app/entry.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "../virtual:nuxt:/Users/hom/home/framework/playground/.nuxt/error-component.mjs"
+    ]
+  },
+  "../virtual:nuxt:/Users/hom/home/framework/playground/.nuxt/error-component.mjs": {
+    "file": "_nuxt/error-component.b82594ad.mjs",
+    "src": "../virtual:nuxt:/Users/hom/home/framework/playground/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "../packages/nuxt/src/app/entry.ts"
+    ],
+    "dynamicImports": [
+      "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "_nuxt/error-404.ca0ffa5a.mjs",
+    "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "../packages/nuxt/src/app/entry.ts",
+      "__plugin-vue_export-helper.7287ed4b.mjs"
+    ],
+    "css": [
+      "_nuxt/error-404.d6518a69.css"
+    ]
+  },
+  "__plugin-vue_export-helper.7287ed4b.mjs": {
+    "file": "_nuxt/_plugin-vue_export-helper.7287ed4b.mjs"
+  },
+  "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "_nuxt/error-500.1d8e0876.mjs",
+    "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "../packages/nuxt/src/app/entry.ts",
+      "__plugin-vue_export-helper.7287ed4b.mjs"
+    ],
+    "css": [
+      "_nuxt/error-500.600ce073.css"
+    ]
+  },
+  "../node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "file": "_nuxt/error-500.600ce073.css",
+    "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "../node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "file": "_nuxt/error-404.d6518a69.css",
+    "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  }
+}
